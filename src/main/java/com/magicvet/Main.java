@@ -24,10 +24,10 @@ public class Main {
                 break;
             }
 
-            System.out.println("access denied, please check your pasword");
+            System.out.println("Access denied, please check your pasword");
         }
 
-        System.out.println(accepted ? "Wellcome to the magic Vet" : "Application has been blocked");
+        System.out.println(accepted ? "Wellcome to the magic Vet!" : "Application has been blocked");
     }
 
     static {
